@@ -1,0 +1,1 @@
+aws deploy register-application-revision --application-name DemoApp --s3-location bundleType=tar,eTag=b5cf9c25ef5ff4620f0ec7f7de5ae944,bucket=csmithson-code-deploy,key=demoRevision.tar
