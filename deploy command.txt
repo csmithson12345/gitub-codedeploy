@@ -1,1 +1,8 @@
 aws deploy register-application-revision --application-name DemoApp --s3-location bundleType=tar,eTag=b5cf9c25ef5ff4620f0ec7f7de5ae944,bucket=csmithson-code-deploy,key=demoRevision.tar
+
+#to commit from github
+aws deploy register-application-revision --application-name DemoApp --github-location commitId=842ca62749ceddfd78c006bb67f5f48f9b87d920,repository=csmithson12345/github-codedeploy
+
+#a combo command to package and deploy all at once.
+
+aws deploy push --application-name DemoApp --ignore-hidden-files --s3-location s3://csmithson-code-deploy/demoRevision2.tar --source .
