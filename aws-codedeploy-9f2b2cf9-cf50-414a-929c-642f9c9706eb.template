@@ -140,6 +140,7 @@
                 "wget https://aws-codedeploy-us-east-2.s3.us-east-2.amazonaws.com/latest/install\n\n",
                 "chmod +x ./install\n\n",
                 "sudo ./install auto\n\n",
+                "sleep 5s\n\n",
                 "sudo ./install auto\n\n",
                 "echo 'hello world' > /var/www/html/index.html\n\n",
                 "hostname >> /var/www/html/index.html\n\n",
