@@ -137,7 +137,7 @@
                 "yum install ruby\n\n",
                 "yum install aws-cli\n\n",
                 "cd ~\n\n",
-                "aws s3 cp s3://aws-codedeploy-us-east-1/latest/install . --region us-east-1\n\n",
+                "aws s3 cp s3://aws-codedeploy-us-east-2/latest/install . --region us-east-1\n\n",
                 "chmod +x ./install\n\n",
                 "./install auto\n\n",
                 "echo 'hello world' > /var/www/html/index.html\n\n",
