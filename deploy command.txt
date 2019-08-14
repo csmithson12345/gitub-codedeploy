@@ -6,3 +6,4 @@ aws deploy register-application-revision --application-name DemoApp --github-loc
 #a combo command to package and deploy all at once.
 
 aws deploy push --application-name DemoApp --ignore-hidden-files --s3-location s3://csmithson-code-deploy/demoRevision2.tar --source .
+aws deploy push --application-name DemoApp --ignore-hidden-files --s3-location s3://csmithson-code-deploy/WindowsProject1.zip --source .
