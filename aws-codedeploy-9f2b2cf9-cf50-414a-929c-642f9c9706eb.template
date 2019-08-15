@@ -98,7 +98,7 @@
         "AvailabilityZones" : { "Ref" : "AZ" },
         "VPCZoneIdentifier" : { "Ref": "PublicSubnets" },
         "MinSize" : "3",
-        "MaxSize" : "3",
+        "MaxSize" : "4",
         "HealthCheckType" : "EC2",
         "HealthCheckGracePeriod" : "600",
         "NotificationConfiguration" : {
